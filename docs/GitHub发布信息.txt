@@ -1,0 +1,67 @@
+GitHub 发布信息与上传清单
+==========================
+
+一、建议仓库名
+--------------
+ecommerce-customer-behavior-tableau
+
+二、About 简介（中文）
+--------------------
+基于 50 万条电商客户行为数据的 Tableau 客户画像与购买转化分析：10 张工作表、1 个纵向仪表板，覆盖年龄/收入/品类/会员/渠道/满意度等维度。
+
+三、About 简介（English）
+-----------------------
+A Tableau dashboard analyzing customer profiles and purchase conversion drivers on a 500K-row e-commerce dataset. Includes 10 worksheets, a 1000×1800 dashboard, a data dictionary and a 5K-row sample.
+
+四、建议 Topics
+--------------
+tableau
+data-visualization
+ecommerce
+customer-analytics
+customer-segmentation
+purchase-conversion
+business-intelligence
+data-analysis
+dashboard
+kaggle-dataset
+
+五、建议 Release
+---------------
+Tag: v1.0.0
+Title: v1.0.0 — Tableau 电商客户购买行为分析
+Notes: 首个公开版本：10 张工作表 + 1 个仪表板 + 数据字典 + 5,000 行样例 + 使用说明。
+
+六、上传前检查
+-------------
+[ ] 不上传 data/customerData_500k.csv（约 57 MB）
+[ ] 不上传 *.hyper、*.twbx（工作簿中的 Extract 已禁用）
+[ ] 确认根目录 电商平台分析.twb 的连接路径为 data，而不是本机绝对路径
+[ ] 确认 data/sample/customerData_sample_5000.csv 已包含
+[ ] 确认 README 中的 assets/banner.png 路径正确
+[ ] 确认 LICENSE（MIT）与 NOTICE（CC BY-NC 4.0）均已包含
+[ ] 确认没有把个人绝对路径、账号、密钥写入任何文件
+[ ] 建议首次提交信息：feat: publish Tableau e-commerce customer behavior analysis
+
+七、Git 命令示例
+---------------
+git init
+git add .
+git commit -m "feat: publish Tableau e-commerce customer behavior analysis"
+git branch -M main
+git remote add origin <你的仓库地址>
+git push -u origin main
+
+八、GitHub 页面设置
+-------------------
+1. 在仓库首页点击 About 右侧齿轮，粘贴上面的中文简介。
+2. 在 Topics 中添加上述关键词（每输入一个按回车）。
+3. 在 Releases 中创建 v1.0.0，粘贴 Release Notes。
+4. 如需展示 README 封面，确认 assets/banner.png 已随仓库上传。
+5. 数据集许可为 CC BY-NC 4.0，不建议在仓库描述中写“MIT 数据集”；MIT 仅适用于原创工作簿和文档。
+
+九、说明
+--------
+- 本仓库不包含完整 50 万行数据，原因是文件大、GitHub 仓库会变重，且数据集为 CC BY-NC 4.0。
+- 5,000 行样例仅用于结构预览，不用于得出完整数据结论。
+- 如果后续确实需要上传完整 CSV，建议使用 Git LFS，并在 README 中明确说明许可与文件大小；但这会显著增加仓库体积。

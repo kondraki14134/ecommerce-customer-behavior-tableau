@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this project or its documentation, please cite this repository. If you use the dataset, please also cite the original Kaggle dataset."
+title: "电商平台客户购买行为与转化影响因素分析"
+abstract: "A Tableau dashboard analyzing customer profiles and purchase conversion drivers on a 500,000-row e-commerce customer behavior dataset."
+authors:
+  - family-names: "郭"
+    given-names: "子宁"
+date-released: "2026-10-25"
+license: MIT
+keywords:
+  - Tableau
+  - data visualization
+  - e-commerce
+  - customer analytics
+  - purchase conversion
+references:
+  - type: dataset
+    title: "Customer Purchase Behavior Dataset (E-commerce)"
+    authors:
+      - family-names: "Vijayaraj"
+        given-names: "Gautham"
+    url: "https://www.kaggle.com/datasets/gauthamvijayaraj/customer-purchase-behavior-dataset-e-commerce/data"
+    license: "CC-BY-NC-4.0"

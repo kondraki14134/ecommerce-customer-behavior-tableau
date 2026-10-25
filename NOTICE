@@ -1,0 +1,28 @@
+NOTICE — 数据与第三方内容说明
+================================
+
+本项目（仓库内的 Tableau 工作簿、README、说明文档、样例整理等原创内容）
+采用 MIT License，Copyright (c) 2026 郭子宁。
+
+原始数据集
+----------
+
+名称：Customer Purchase Behavior Dataset (E-commerce)
+作者/发布者：Gautham Vijayaraj
+来源：https://www.kaggle.com/datasets/gauthamvijayaraj/customer-purchase-behavior-dataset-e-commerce/data
+许可：CC BY-NC 4.0（Creative Commons Attribution-NonCommercial 4.0 International）
+说明：数据集仅供学习、研究和非商业用途；使用时必须保留署名。
+
+仓库中的 data/sample/customerData_sample_5000.csv 是原始数据集的前 5,000 行，
+仅用于结构预览和连接测试，仍然遵循 CC BY-NC 4.0，不适用 MIT License。
+
+完整数据集不随本仓库分发。请从上述 Kaggle 页面下载，并遵守其许可条款。
+
+引用
+----
+
+如使用本项目的分析思路或文档，请引用本仓库。
+如使用原始数据，请同时引用原数据集：
+
+Vijayaraj, G. Customer Purchase Behavior Dataset (E-commerce). Kaggle.
+https://www.kaggle.com/datasets/gauthamvijayaraj/customer-purchase-behavior-dataset-e-commerce/data
